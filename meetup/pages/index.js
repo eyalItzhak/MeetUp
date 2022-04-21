@@ -24,6 +24,9 @@ function HomePage(props) {
   return <MeetupList meetups={props.meetups} />;
 }
 
+
+ 
+
 export async function getStaticProps(){ //pre render
       return {
         props:{
